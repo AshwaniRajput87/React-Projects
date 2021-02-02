@@ -1,0 +1,47 @@
+.list-items {
+    position: relative;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.list-item {
+    list-style: none;
+    padding: 10px;
+    margin: 5px auto;
+    text-align: left;
+    width: 300px;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+}
+
+
+.btn {
+    width: 120px;
+    text-align: center;
+    background-color: lightblue;
+    color: cornflowerblue;
+    position: relative;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.remove-btn {
+    color: cornflowerblue;
+    position: relative;
+    outline: none;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+    background: transparent;
+    float: right;
+}
